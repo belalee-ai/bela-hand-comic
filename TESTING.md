@@ -87,3 +87,5 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic \
 新增展示图 `demo-simple-knowledge-card.png` 直接复用作者 JEV 系列已完成的“Jev 放在应用的哪一层”淡背景版，1448×1086 PNG，复制后 SHA-256 与原图一致。本次未重新生图。已检查层级、箭头、文字和贝拉右腕手环；卡片中的接法明确标为一种应用结构示意，并为 Jev 判断接口补充官方来源。
 
 本机与公开版 `references/simple-knowledge-card.md` 内容一致；本次在公开版 SKILL 入口补上统一选图顺序与图库链接，未覆盖本机个人配置。Skill 格式与 Markdown 本地资源链接检查通过；安装和跨客户端出图测试沿用此前明确范围。
+
+统一图库公开页已回读：`5372c4a` 的 README 六张图片全部完整加载，尺寸与本地一致；实际图库区域已截图并目视检查，见 [统一图库截图](docs/images/github-unified-gallery.png)。
