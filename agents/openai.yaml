@@ -1,4 +1,4 @@
 interface:
   display_name: "Bela 手绘连环画"
-  short_description: "用手绘故事讲清主题，支持自定义人物、画风、配色和排版"
-  default_prompt: "使用 $bela-hand-comic，把这个主题做成手绘故事。先确定我想用的角色与排版，检查内容逻辑，再做一张关键示例。"
+  short_description: "制作手绘故事、流程图与对比表，支持自定义角色、画风和排版"
+  default_prompt: "使用 $bela-hand-comic，把这个主题做成合适的手绘故事或图示。先确定角色、信息关系与排版，按任务需要生成并检查文字、逻辑和画面。"

@@ -65,3 +65,7 @@
 ![GitHub 使用指南实际截图：角色设计材料与五项最小信息](images/github-character-design.png)
 
 拍摄于 2026-09-21，来自 `docs/character-design.md`（提交 `c5b1201`），视口 1440×1080。展示照片、角色图、纯文字和风格参考分别需要提供什么；完整可填写模板见 [角色设计指南](character-design.md)。
+
+## 新增图示 Demo
+
+2026-09-21，新增含贝拉 IP 的白底墨线流程图与粗蜡笔对比表，并加入此前确认的白底试样。这些是实际生成图，不是页面操作截图。见 [Demo 与可复制提示词](diagram-demos.md)。
