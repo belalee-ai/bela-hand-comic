@@ -45,3 +45,7 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic \
 安装器接受全部六个目标并正常完成。实际产生 `.claude/skills/bela-hand-comic` 和 `.agents/skills/bela-hand-comic` 两处目录，部分 Agent 共用后者；两处目录中的 11 个核心文件逐一与公开版比较 SHA-256，均一致。
 
 这证明安装器可以部署所需文件，不代表六个客户端都已启动并成功识别、触发 Skill 或生成图片。本次没有安装六个客户端，也没有改动已有的全局 Skill。
+
+## 角色设计说明补充
+
+2026-09-21，新增角色设计资料清单、模板和执行分支。Skill 格式与文档链接检查通过；角色设计指南已在 GitHub 浏览器实际打开检查，并保存页面截图。此项为说明与流程检查，没有新生成角色，不能据此宣称已完成自定义角色生图实测。

@@ -59,3 +59,9 @@
 ![GitHub README 实际截图：六种 Agent 的安装支持和出图条件](images/github-agents.png)
 
 安装支持、项目级文件验证与客户端完整出图分别说明；Claude Code、Codex 等工具名直接放在首页。
+
+### 从材料到角色设计
+
+![GitHub 使用指南实际截图：角色设计材料与五项最小信息](images/github-character-design.png)
+
+拍摄于 2026-09-21，来自 `docs/character-design.md`（提交 `c5b1201`），视口 1440×1080。展示照片、角色图、纯文字和风格参考分别需要提供什么；完整可填写模板见 [角色设计指南](character-design.md)。
