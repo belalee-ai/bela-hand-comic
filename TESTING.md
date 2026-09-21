@@ -61,3 +61,5 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic \
 - `demo-sample-first.png`：此前用户已确认的白底风格示例，复用加入画廊。
 
 以上图片均为 1672×941 PNG，逐张目视检查；贝拉身份参考被用于新场景，Demo 不替代角色设定原图。新图提示词已随仓库保留，Skill 格式和受影响的本地链接已检查。这里记录的是在 Codex 中读取 Skill 后调用图片工具的结果，并非六种客户端的自动触发测试。真实数据绘图规则已补充，但本次两张 Demo 为定性图，没有实测精确数值绘图分支。
+
+公开页面回读：提交 `8e2eca5` 已推送，GitHub README 中两张新图加载完整（原图均为 1672×941），已保存并目视检查 [新版页面截图](docs/images/github-diagram-demos.png)。
