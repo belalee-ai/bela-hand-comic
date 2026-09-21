@@ -6,7 +6,7 @@
 
 **人物可以换，画风和排版也能自己定。** 阿朱、阿兔和贝拉是随包提供的示例，你可以用自己的原创角色、上传参考图，或直接描述想法。一组图开始前确定设定，后面再保持连贯。
 
-[适用 Agent](#可以装到哪些-agent) · [复制安装](INSTALL.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [验证范围](TESTING.md)
+[适用 Agent](#可以装到哪些-agent) · [复制安装](INSTALL.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [提示词参考](docs/prompt-examples.md) · [验证范围](TESTING.md)
 
 ## 可以装到哪些 Agent
 
