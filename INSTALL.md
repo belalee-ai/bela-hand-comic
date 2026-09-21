@@ -2,6 +2,8 @@
 
 第一次使用，先装 Skill，再检查出图能力。安装只是把说明、参考图和脚本放到助手能读取的位置。
 
+可选择 Claude Code、Codex、Cursor、OpenCode、Gemini CLI、GitHub Copilot。下面按 Agent 给出命令；安装不附带图片模型，助手读取参考图与实际调用图片服务是两个需要分别检查的环节。
+
 ## 最省事：让助手帮你装
 
 ```text
@@ -26,6 +28,15 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent claude
 
 # Cursor
 npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent cursor --global
+
+# OpenCode
+npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent opencode --global
+
+# Gemini CLI
+npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent gemini-cli --global
+
+# GitHub Copilot
+npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent github-copilot --global
 ```
 
 不确定工具名时，去掉 `--agent …`，跟随安装器选择。`--global` 表示用于当前用户的多个项目；只装当前项目则去掉它。安装器可能创建共享目录和链接，以实际提示为准，不要只复制 `SKILL.md`。
@@ -33,6 +44,26 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --agent cursor
 安装命令和参数依据 [Vercel Skills 官方说明](https://github.com/vercel-labs/skills)。以上客户端名称是安装器的目标名称，不是完整生图兼容性认证。
 
 装好后开启新对话，告诉助手“使用 bela-hand-comic”。没有识别出来时，请它确认安装目录和文件是否齐全。你也可以运行 `npx skills list --global` 查看安装记录。
+
+## 装好以后，确认 Agent 能做哪一步
+
+先开启新对话，把这段发给 Agent：
+
+```text
+使用 bela-hand-comic。先不要生成图片。
+读取 SKILL.md、风格指南，并打开一张随包角色参考图。
+告诉我当前能否：写分镜、生成图片、传入参考图、编辑已有图片。
+缺少哪个环节就说明哪个，不把看图能力当成出图能力。
+```
+
+检查通过后，再用首页的单图例子试一次。自然语言调用不依赖所有 Agent 都有相同快捷键；斜杠或 `$` 入口以当前客户端为准。
+
+- 只有文字与文件能力：可以准备故事、分镜和提示词，暂时无法完成出图。
+- 已接入图片生成：确认工具真的接收到参考图，再检查生成结果和保存位置。
+- 还具备图片编辑：可以尝试只改文字或局部内容，但仍要检查其他区域是否变化。
+- 需要七图拼版：当前 Agent 还要能运行 Bash 和 FFmpeg。
+
+`agents/openai.yaml` 是供部分客户端读取的展示配置；通用执行内容在 `SKILL.md`。其他客户端不依赖这个 YAML 才能理解使用步骤。本包没有附带各 Agent 的图片服务连接配置，需要使用者自己的工具环境提供。
 
 ## 不用 Node.js 的备用办法
 

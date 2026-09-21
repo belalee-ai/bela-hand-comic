@@ -6,7 +6,26 @@
 
 **人物可以换，画风和排版也能自己定。** 阿朱、阿兔和贝拉是随包提供的示例，你可以用自己的原创角色、上传参考图，或直接描述想法。一组图开始前确定设定，后面再保持连贯。
 
-[复制安装](INSTALL.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [验证范围](TESTING.md)
+[适用 Agent](#可以装到哪些-agent) · [复制安装](INSTALL.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [验证范围](TESTING.md)
+
+## 可以装到哪些 Agent
+
+**支持通过 Skills 安装器安装到 Claude Code、Codex、Cursor、OpenCode、Gemini CLI 和 GitHub Copilot。** 这些工具可以使用本仓库的 Skill 文件；是否能直接出图，取决于当前 Agent 接入的图片工具。
+
+| Agent | 安装参数 | 当前验证范围 |
+|---|---|---|
+| Claude Code | `--agent claude-code` | 项目级文件安装已验证 |
+| Codex | `--agent codex` | 项目级文件安装已验证 |
+| Cursor | `--agent cursor` | 项目级文件安装已验证 |
+| OpenCode | `--agent opencode` | 项目级文件安装已验证 |
+| Gemini CLI | `--agent gemini-cli` | 项目级文件安装已验证 |
+| GitHub Copilot | `--agent github-copilot` | 项目级文件安装已验证 |
+
+本次验证了安装器向六种目标部署文件，部分 Agent 共用同一安装目录；没有逐一启动这些客户端验证加载、触发或完整出图，GitHub Copilot 的具体客户端入口也需按其文档确认。
+
+写故事、分镜和提示词需要文字模型与文件读取能力；生成图片还需要能传入参考图的图片工具，定点改图还需要图片编辑能力。**能安装 Skill，不代表自动获得图片模型或生成额度。** Claude Code 等环境可以通过其支持的工具、MCP 或 API 接入图片服务，实际可用性要在当前环境检查。
+
+安装目标按 [Skills 官方支持列表](https://github.com/vercel-labs/skills#supported-agents) 核验；[各 Agent 的安装命令](INSTALL.md#用命令安装) 和 [实际验证记录](TESTING.md) 单独列出。其他 Agent 先检查当前安装器和客户端文档，不笼统承诺全部兼容。
 
 ## 先看默认效果
 
@@ -41,7 +60,7 @@ https://github.com/belalee-ai/bela-hand-comic
 npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic --global
 ```
 
-命令使用 [Vercel Skills 安装工具](https://github.com/vercel-labs/skills)，需要 Node.js/npm、Git 和网络。[Codex / Claude Code / Cursor 命令及备用安装方式](INSTALL.md)
+命令使用 [Vercel Skills 安装工具](https://github.com/vercel-labs/skills)，需要 Node.js/npm、Git 和网络。[各 Agent 专用命令及备用安装方式](INSTALL.md)
 
 ## 装好后，先这样试一次
 
