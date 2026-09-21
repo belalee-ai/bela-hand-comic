@@ -1,36 +1,47 @@
 # Bela Hand Comic · 手绘连环画
 
-把不容易讲清楚的主题，画成手绘故事、流程图或对比表。
+把不容易讲清楚的主题，画成简约知识卡、手绘故事或图表。
 
-我把自己做手绘图时用的角色参考、画风要求和检查步骤整理成了这个 Skill。默认是彩铅线条、淡水彩和暖色纸张，适合做概念解释、生活故事、课程配图，也可以给自己的角色画一组连续插画。
+我把自己做手绘图时用的角色参考、画风要求和检查步骤整理成了这个 Skill。故事场景默认采用彩铅线条、淡水彩和暖色纸张；知识解释可用淡背景的简约卡片。适合做概念解释、生活故事、课程配图，也可以给自己的角色画一组连续插画。
 
 **人物可以换，画风和排版也能自己定。** 阿朱、阿兔和贝拉是随包提供的示例，你可以用自己的原创角色、上传参考图，或直接描述想法。一组图开始前确定设定，后面再保持连贯。
 
-[适用 Agent](#可以装到哪些-agent) · [复制安装](INSTALL.md) · [看新 Demo 与提示词](docs/diagram-demos.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [提示词参考](docs/prompt-examples.md) · [验证范围](TESTING.md)
+[适用 Agent](#可以装到哪些-agent) · [复制安装](INSTALL.md) · [统一图库与提示词](docs/diagram-demos.md) · [看图片与截图](docs/screenshots.md) · [使用与自定义](docs/usage.md) · [提示词参考](docs/prompt-examples.md) · [验证范围](TESTING.md)
 
-## 新 Demo：让贝拉一起讲清楚
+## 先选表达方式，再选画风
 
-下面两张是按本 Skill 的图示分支实际生成的图片，贝拉使用随包的作者 IP 参考。它们展示工作方法，不是软件操作截图；角色、笔触、配色和版式都可以换。
+**简约知识卡和故事场景，是两种信息组织方式；墨线、蜡笔、剪纸、水彩，是可以搭配的画风。** 流程图、对比表、结构图和时间线则说明内容如何排列，它们都属于同一个 Skill。
 
-**白底墨线流程图：把角色设计出来。** 贝拉检查试样，满意后保存，需要调整则回到设定。
+| 先决定什么 | 怎么选 |
+|---|---|
+| 表达方式 | 讲定义、流程和比较，优先简约知识卡；讲人物行动、生活和情绪，选故事场景 |
+| 图的类型 | 步骤用流程图，异同用对比表，组成用结构图，先后用时间线；具体动作也可以只画一个场景 |
+| 画风与角色 | 再选白底墨线、粗蜡笔、剪纸拼贴或彩铅水彩，并提供自己的角色参考；示例贝拉、阿朱和阿兔都可替换 |
 
-![贝拉检查试样的手绘流程图，调整分支返回设定](docs/images/demo-flowchart.png)
+简约版保留关键解释、必要例子和少量有色场景，减少碎装饰、多层强调和重复对白。它可以有清楚的流程图与多条短标签，也不要求所有画面都变成纯文字白板。[完整规则](references/simple-knowledge-card.md)
 
-**粗蜡笔对比表：三种起步方式。** 照片、文字和已有角色用相同维度比较，没有评分或优劣排名。
+## 统一效果图库
 
-![贝拉指引的手绘对比表，比较照片、文字、已有角色所需资料](docs/images/demo-comparison.png)
+以下都是实际生成并检查过的图片。简约卡复用作者已有 JEV 系列成图；其他示例展示不同材质与用途。**旧风格示例保留原貌，并不全部符合简约版的装饰密度要求。** 点击图片查看原图，每种的用途、输入要求和提示词见 [完整图库说明](docs/diagram-demos.md)。
 
-[看提示词、角色参考和更多白底示例](docs/diagram-demos.md)。需要真实数字的柱状图、折线图等，先核对数据，再用可计算的绘图工具保证位置和比例；详见 [图示与数据规则](references/diagrams-and-charts.md)。
+<table>
+<tr>
+<td width="50%"><a href="docs/images/demo-simple-knowledge-card.png"><img src="docs/images/demo-simple-knowledge-card.png" alt="简约知识卡：Jev 在应用中的位置"><br><b>简约知识卡 · 应用结构示意</b></a><br>先看关系，淡背景与小人物辅助阅读。</td>
+<td width="50%"><a href="docs/images/demo-flowchart.png"><img src="docs/images/demo-flowchart.png" alt="白底墨线：贝拉检查角色试样的流程图"><br><b>白底墨线 · 流程图</b></a><br>说明步骤、判断和返工。</td>
+</tr>
+<tr>
+<td width="50%"><a href="docs/images/demo-comparison.png"><img src="docs/images/demo-comparison.png" alt="粗蜡笔：三种角色设计起步方式对比"><br><b>粗蜡笔 · 对比表</b></a><br>用统一维度比较资料要求。</td>
+<td width="50%"><a href="docs/images/demo-collage-structure.png"><img src="docs/images/demo-collage-structure.png" alt="剪纸拼贴：角色设定的三个部分"><br><b>剪纸拼贴 · 结构图</b></a><br>用纸片分组表现组成关系。</td>
+</tr>
+<tr>
+<td width="50%"><a href="docs/images/demo-ink-timeline.png"><img src="docs/images/demo-ink-timeline.png" alt="黑白漫画：创作日程时间线"><br><b>黑白漫画 · 时间线</b></a><br>串联阶段，青柠手环点色。</td>
+<td width="50%"><a href="docs/images/demo-watercolor-journal.png"><img src="docs/images/demo-watercolor-journal.png" alt="水彩手账：贝拉在公园画画"><br><b>水彩手账 · 生活场景</b></a><br>用环境与动作表达观察和情绪。</td>
+</tr>
+</table>
 
-## 再看三种类型
+[放大看图、复制请求与了解搭配](docs/diagram-demos.md) · [原有彩铅故事与角色参考](docs/screenshots.md) · [生成与检查记录](TESTING.md)
 
-<table><tr>
-<td width="33%"><img src="docs/images/demo-collage-structure.png" alt="剪纸拼贴角色设定结构图"><br><b>剪纸拼贴 · 结构图</b><br>说明分类、组成与层级。</td>
-<td width="33%"><img src="docs/images/demo-ink-timeline.png" alt="黑白漫画创作日程时间线"><br><b>黑白漫画 · 时间线</b><br>说明阶段与事件顺序。</td>
-<td width="33%"><img src="docs/images/demo-watercolor-journal.png" alt="贝拉在公园画画的水彩手账场景"><br><b>水彩手账 · 场景图</b><br>记录生活动作与情绪。</td>
-</tr></table>
-
-三张均使用贝拉 IP 实际生成，黑白版保留青柠手环点色。[放大查看与复制提示词](docs/diagram-demos.md)。这些是同一个 Skill 的不同表达方式，使用者可以换角色、内容和风格。
+图库是视觉示例，不是软件操作截图，也不保证任意组合一次生成成功。JEV 卡片只展示一种应用接法，不是安装本 Skill 所需的依赖；真实数值图表仍须用可计算工具保证数据位置和比例。
 
 ## 可以装到哪些 Agent
 
@@ -50,31 +61,6 @@
 写故事、分镜和提示词需要文字模型与文件读取能力；生成图片还需要能传入参考图的图片工具，定点改图还需要图片编辑能力。**能安装 Skill，不代表自动获得图片模型或生成额度。** Claude Code 等环境可以通过其支持的工具、MCP 或 API 接入图片服务，实际可用性要在当前环境检查。
 
 安装目标按 [Skills 官方支持列表](https://github.com/vercel-labs/skills#supported-agents) 核验；[各 Agent 的安装命令](INSTALL.md#用命令安装) 和 [实际验证记录](TESTING.md) 单独列出。其他 Agent 先检查当前安装器和客户端文档，不笼统承诺全部兼容。
-
-## 原有彩铅水彩效果
-
-下面是随包已有的手绘参考图，展示默认风格。它们不是软件操作截图，也不代表每次生成都会完全一样。
-
-![默认手绘故事：阿朱请阿兔安排一场野餐](assets/style-story-scene.png)
-
-<table><tr>
-<td width="50%"><img src="assets/style-skill-activation.png" alt="动作与能力的手绘表达"><br>用动作解释：阿兔用上自己会的一门手艺。</td>
-<td width="50%"><img src="assets/style-concept-map.png" alt="用人物和简洁图标说明关系"><br>用少量标签说明关系。图中帐篷代表“搭帐篷的本领”，是生活比喻。</td>
-</tr></table>
-
-[查看全部 7 张角色与画风参考，以及实际仓库截图](docs/screenshots.md)
-
-## 需要更清爽的知识卡片时
-
-流程、模型解释、对比和数据页可使用简约版：保留信息与例子，背景通常只选桌面、窗户等 2–3 样必要元素；减少碎装饰、重复对白和广告式强调，人物配饰仍保持一致。
-
-```text
-使用 bela-hand-comic 的简约知识卡片版，横版 4:3。
-保留核心流程和例子，加少量有颜色的场景。
-减少小碎装饰、多层色框和重复对白，不要删成纯文字页。
-```
-
-[查看简约版规则与提示词](references/simple-knowledge-card.md)。上方图片仍是故事场景版参考，不是简约版效果图。
 
 ## 一句话安装
 
@@ -181,9 +167,10 @@ macOS 已做本次文件与拼版检查；Windows、Linux 和不同助手的完�
 
 - [SKILL.md](SKILL.md)：助手的执行步骤，支持自定义人物和样式。
 - [风格指南](references/style-guide.md)：默认手绘规则、示例人物与提示词模板。
+- [简约知识卡规则](references/simple-knowledge-card.md)：信息层次、场景取舍和人物配饰检查。
 - [图示规则](references/diagrams-and-charts.md)：流程、对比、结构、时间与数值图表的制作和检查。
 - [Demo 与提示词](docs/diagram-demos.md)：流程、对比、结构、时间线与场景示例，含贝拉 IP。
 - [assets](assets)：7 张随包提供的角色与画风参考。
 - [拼版脚本](scripts/compose-seven-3x4.sh)：组合已确认图片，不重绘图片内容。
 
-assets 中的参考图来自作者已有的手绘工作流素材；docs/images/demo- 开头的图片是本次新增生成示例，README 的真实页面截图另行标注。白底解释图的展示方向参考了 [Ian 的插画项目](https://github.com/helloianneo/ian-xiaohei-illustrations)，本仓库新图使用贝拉参考重新生成，未搬用其图片或小黑角色。项目没有附带模型、第三方账号或私人对话。当前未附开源许可证；如需转载素材或商用角色，请先与作者确认，勿将贝拉用作作者背书。
+assets 中的参考图来自作者已有的手绘工作流素材；docs/images/demo- 开头的图片包括本次生成的风格示例和复用的 JEV 简约卡，README 的真实页面截图另行标注。白底解释图的展示方向参考了 [Ian 的插画项目](https://github.com/helloianneo/ian-xiaohei-illustrations)，本仓库新图使用贝拉参考重新生成，未搬用其图片或小黑角色。项目没有附带模型、第三方账号或私人对话。当前未附开源许可证；如需转载素材或商用角色，请先与作者确认，勿将贝拉用作作者背书。
