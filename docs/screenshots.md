@@ -40,4 +40,16 @@
 
 ## 实际仓库页面截图
 
-公开后补入本仓库 README 的浏览器截图，标注拍摄范围。截图只记录文档显示，不冒充图片生成过程。
+拍摄于 2026-09-21，来自本仓库 GitHub README（提交 `b598352`），浏览器视口 1440×1080。截图只记录文档显示，不是图片生成过程；页面后续更新时可能与截图略有不同。
+
+### 默认效果与可自定义说明
+
+![GitHub README 实际截图：手绘效果和自定义说明](images/github-readme.png)
+
+### 安装与第一次使用
+
+![GitHub README 实际截图：可复制安装口令和首次使用](images/github-install.png)
+
+### 自定义与环境要求
+
+![GitHub README 实际截图：人物、风格、排版与环境要求](images/github-customize.png)
