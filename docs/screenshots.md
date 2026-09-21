@@ -75,3 +75,9 @@
 2026-09-21，在 GitHub 实际打开提交 `8e2eca5` 的 README，核对两张新图均加载为 1672×941 原图。截图记录流程图与下方对比表的开头，完整图片见 Demo 页。
 
 ![GitHub 首页新增贝拉图示 Demo 的实际页面截图](images/github-diagram-demos.png)
+
+### 三种类型扩展实拍
+
+2026-09-21，GitHub 提交 `d0f06f3` 的 README，新增剪纸结构图、黑白时间线、水彩手账三种类型。浏览器核对三张图片均完整加载；下图是实际页面截图，原图及提示词见 [图库](diagram-demos.md)。
+
+![GitHub README 中三种新增类型的实际展示截图](images/github-more-styles.png)

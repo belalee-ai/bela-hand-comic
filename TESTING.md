@@ -77,3 +77,5 @@ npx skills add belalee-ai/bela-hand-comic --skill bela-hand-comic \
 - 水彩手账场景图：检查标题、人物和画本内容；画本中的柳树、桥与风景对应。一次网络错误未返回图片，重试后成功。
 
 三张最终图片已目视检查。结构图与时间线均为 1672×941，水彩场景为 1448×1086。完整生成与修正提示词见 [本轮提示词](docs/more-style-prompts.md)。仍未进行跨 Agent 客户端的完整生成实测。
+
+三种类型的公开页面已回读：提交 `d0f06f3` 的 README 中三张新图均加载完整，原图尺寸与本地一致；已检查并保存 [实际页面截图](docs/images/github-more-styles.png)。
