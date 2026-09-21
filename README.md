@@ -29,7 +29,10 @@
 请帮我安装 Bela Hand Comic 手绘连环画 Skill：
 https://github.com/belalee-ai/bela-hand-comic
 
-按当前工具支持的方式安装完整仓库里的 Skill，保留 assets、references、scripts 和 agents。装好后检查能否读取角色参考图，并告诉我当前有没有图片生成、参考图输入和图片编辑能力。如果只能写文字，先说明限制，不把提示词当成已经出图。
+按当前工具支持的方式安装完整仓库里的 Skill。
+保留 assets、references、scripts 和 agents。
+装好后检查能否读取角色参考图，以及是否具备图片生成、参考图输入和编辑能力。
+如果只能写文字，先说明限制，不把提示词当成已经出图。
 ```
 
 习惯用终端的话，复制这条，再选择你用的工具：
