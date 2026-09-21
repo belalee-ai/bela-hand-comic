@@ -22,6 +22,16 @@
 
 [看提示词、角色参考和更多白底示例](docs/diagram-demos.md)。需要真实数字的柱状图、折线图等，先核对数据，再用可计算的绘图工具保证位置和比例；详见 [图示与数据规则](references/diagrams-and-charts.md)。
 
+## 再看三种类型
+
+<table><tr>
+<td width="33%"><img src="docs/images/demo-collage-structure.png" alt="剪纸拼贴角色设定结构图"><br><b>剪纸拼贴 · 结构图</b><br>说明分类、组成与层级。</td>
+<td width="33%"><img src="docs/images/demo-ink-timeline.png" alt="黑白漫画创作日程时间线"><br><b>黑白漫画 · 时间线</b><br>说明阶段与事件顺序。</td>
+<td width="33%"><img src="docs/images/demo-watercolor-journal.png" alt="贝拉在公园画画的水彩手账场景"><br><b>水彩手账 · 场景图</b><br>记录生活动作与情绪。</td>
+</tr></table>
+
+三张均使用贝拉 IP 实际生成，黑白版保留青柠手环点色。[放大查看与复制提示词](docs/diagram-demos.md)。这些是同一个 Skill 的不同表达方式，使用者可以换角色、内容和风格。
+
 ## 可以装到哪些 Agent
 
 **支持通过 Skills 安装器安装到 Claude Code、Codex、Cursor、OpenCode、Gemini CLI 和 GitHub Copilot。** 这些工具可以使用本仓库的 Skill 文件；是否能直接出图，取决于当前 Agent 接入的图片工具。
@@ -172,7 +182,7 @@ macOS 已做本次文件与拼版检查；Windows、Linux 和不同助手的完�
 - [SKILL.md](SKILL.md)：助手的执行步骤，支持自定义人物和样式。
 - [风格指南](references/style-guide.md)：默认手绘规则、示例人物与提示词模板。
 - [图示规则](references/diagrams-and-charts.md)：流程、对比、结构、时间与数值图表的制作和检查。
-- [Demo 与提示词](docs/diagram-demos.md)：两张图示和一张白底故事示例，含贝拉 IP。
+- [Demo 与提示词](docs/diagram-demos.md)：流程、对比、结构、时间线与场景示例，含贝拉 IP。
 - [assets](assets)：7 张随包提供的角色与画风参考。
 - [拼版脚本](scripts/compose-seven-3x4.sh)：组合已确认图片，不重绘图片内容。
 
