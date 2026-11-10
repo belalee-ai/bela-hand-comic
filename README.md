@@ -1,3 +1,8 @@
+<!-- bela-skills-migration -->
+> 本仓库的相关 Skill 已收录到 [Bela Skills](https://github.com/belalee-ai/bela-skills)。推荐用 `npx skills add belalee-ai/bela-skills` 安装。
+>
+> 合集入口为 [`bela-hand-comic`](https://github.com/belalee-ai/bela-skills/tree/main/bela-hand-comic)。当前仓库保留旧版文档、链接和提交历史。
+
 # Bela Hand Comic · 手绘连环画
 
 把不容易讲清楚的主题，画成简约知识卡、手绘故事或图表。
